@@ -15,7 +15,6 @@
     --container-color: #FAFAFA;
     --container-color-alt: #F0EFEF;
     --body-color: #FCFCFC;
-    /* The New Colors */
     --title-color-2: #2C2E4D;
     --img-color: #192768;
 
@@ -43,14 +42,11 @@
 }
 
 /*############ The BASE ############*/
-
 *, ::before, ::after {
     box-sizing: border-box;
 }
 
-
 /*############ The Variables in Dark theme ############*/
-
 body.dark-theme {
     /* The Dark Theme Colors */
     --title-color: #F2F2F2;
@@ -61,7 +57,6 @@ body.dark-theme {
 }
 
 /*############ The Button Dark/Light ############*/
-
 .change-theme {
     position: absolute;
     right: 0;
@@ -71,7 +66,6 @@ body.dark-theme {
     font-style: 1.2rem;
     cursor: pointer;
 }
-
 .change-theme:hover {
     color: var(--title-color);
 }

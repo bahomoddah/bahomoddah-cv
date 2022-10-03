@@ -45,6 +45,9 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /*############ The Variables in Dark theme ############*/
 body.dark-theme {

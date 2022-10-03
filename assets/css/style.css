@@ -1,7 +1,7 @@
 /* ############## Gereral Settings ############## */
 /* The Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import url('font/Roboto/Roboto-Medium.ttf');
+@import url('../fonts/Roboto/Roboto-Medium.ttf');
 
 
 /* Set Main Variables  */
@@ -15,6 +15,9 @@
     --container-color: #FAFAFA;
     --container-color-alt: #F0EFEF;
     --body-color: #FCFCFC;
+    /* The New Colors */
+    --title-color-2: #2C2E4D;
+    --img-color: #192768;
 
     /* The Font and Typography */
     --body-font: 'Poppins', 'Roboto-Medium', sans-serif;
@@ -328,7 +331,7 @@ img {
 /* to Active menu link */
 
 .active-link {
-    color: var(--text-color);
+    color: var(--img-color);
 }
 
 /*############ The HOME ############*/
@@ -347,8 +350,8 @@ img {
 }
 
 .home__img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     justify-self: center;
     margin-bottom: var(--mb-1);
@@ -416,12 +419,6 @@ img {
 .social__icon {
     font-size: 1.2rem;
     margin-right: .25rem;
-}
-
-/*############ The PROFILE ############*/
-
-.profile__description {
-    text-align: center;
 }
 
 /*############ The EDUCATION AND The EXPERIENCE ############*/
@@ -508,24 +505,6 @@ img {
 .certificate__title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
-}
-
-/*############ The REFERENCES ############*/
-.reference__content {
-    gap: .25rem;
-}
-
-.reference__subtitle {
-    color: var(--text-color-light);
-}
-
-.reference__subtitle,
-.reference__contact {
-    font-size: var(--smaller-font-size);
-}
-
-.reference__title {
-    font-size: var(--h3-font-size);
 }
 
 /*############ The INTERESTS ############*/
@@ -628,8 +607,7 @@ img {
         display: inline-block;
     }
 
-    .section-title,
-    .profile__description {
+    .section-title {
         text-align: initial;
     }
 
@@ -639,11 +617,6 @@ img {
 
     .home__button-movil {
         display: none;
-    }
-
-    .references__container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
 
     .languages__content {

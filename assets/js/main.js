@@ -131,13 +131,14 @@ const srLeft = ScrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 2000,
-    reset: true
+    reset: false
 });
 
 /*SCROLL HOME*/
-srLeft.reveal('.resume__left .section',{ interval: 200});
-srLeft.reveal('.resume__right .section',{delay: 200,  interval: 200});
+// srLeft.reveal('.resume__left .section',{ interval: 200});
+// srLeft.reveal('.resume__right .section',{delay: 200,  interval: 200});
 srLeft.reveal('.social__icon',{ interval: 200}); 
 srLeft.reveal('.home__icon',{ interval: 200});
 srLeft.reveal('.section-title',{ origin: 'left'}); 
+srLeft.reveal('.experience__rounder',{ interval: 200}); 
 

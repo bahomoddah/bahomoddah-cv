@@ -281,6 +281,14 @@ img {
     }
     
 }
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo img {
+    margin-right: 4px;
+}
 
 .nav__logo,
 .nav__toggle {

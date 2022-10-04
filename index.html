@@ -1,320 +1,376 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Bahomoddah CV website">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="keywords" content="bahomoddah,CV,Programmer,باحمده,website">
-        <meta name="author" content="Bahomoddah">
-        <meta name="robots" content="index, follow">
-        <link rel="icon" href="assets/images/logo-b.png" type="image/x-icon">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Bahomoddah CV website" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="keywords" content="bahomoddah,CV,Programmer,باحمده,website" />
+    <meta name="author" content="Bahomoddah" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="assets/images/logo-b.png" type="image/x-icon" />
 
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> -->
-        <link rel="stylesheet" href="assets/css/boxicons.min.css.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> -->
+    <link rel="stylesheet" href="assets/css/boxicons.min.css.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-        <title>Bahomoddah CV</title>
-    </head>
-    <body>
-        <!--############ The HEADER ############-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">
-                    <img width="20" src="assets/images/logo-b.png" alt="">
-                    Bahomoddah</a>
+    <title>Bahomoddah CV</title>
+  </head>
+  <body>
+    <!--############ The HEADER ############-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">
+          <img width="20" src="assets/images/logo-b.png" alt="" />
+          Bahomoddah</a
+        >
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="bx bx-home nav__icon"></i>Home
-                            </a>
-                        </li>
-                        <!-- <li class="nav__item">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <!-- <li class="nav__item">
                             <a href="#social" class="nav__link">
                                 <i class="bx b bx-user nav__icon"></i>Social
                             </a>
                         </li> -->
-                        <li class="nav__item">
-                            <a href="#education" class="nav__link">
-                                <i class="bx bx-book nav__icon"></i>Education
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#tools" class="nav__link">
-                                <i class="bx bx-receipt nav__icon"></i>Tools
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#experience" class="nav__link">
-                                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="bx bx-user nav__icon"></i>Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#interests" class="nav__link">
-                                <i class="bx bx-award nav__icon"></i>Interests
-                            </a>
-                        </li>
-                    </ul>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#tools" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Tools
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#interests" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Interests
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--############ The HOME ############-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="assets/images/bahomoddah-black.jpg"
+                  alt=""
+                  class="home__img"
+                />
+
+                <h1 class="home__title">Mohammed <b>Bahomoddah</b></h1>
+                <h3 class="home__profession">Software Engineer</h3>
+
+                <!-- Here The Button to download the pdf. Available for mobile. -->
+                <div>
+                  <a
+                    download=""
+                    href="assets/images/Bahomoddah-cv.pdf"
+                    class="home__button-movil"
+                    >download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Hadramout
+                </span>
+                <span class="home__information">
+                  <a class="social__link" href="mailto:bahomoddah@gmail.com">
+                    <i class="bx bx-envelope home__icon"></i
+                    >bahomoddah@gmail.com
+                  </a>
+                </span>
+                <span class="home__information">
+                  <a class="social__link" href="tel:+967770751034">
+                    <i class="bx bx-phone home__icon"></i>770751034
+                  </a>
+                </span>
+                <span class="home__information">
+                  <a
+                    class="social__link"
+                    href="https://api.whatsapp.com/send?phone=00967770751034&text="
+                    target="_blank"
+                  >
+                    <i class="bx bxl-whatsapp home__icon"></i>+967 770751034
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <!-- Change-theme btn -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Generate & download the pdf (desktop) -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--############ The SOCIAL ############-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/mohammed-bahomoddah/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i>
+                @mohammed-Bahomoddah
+              </a>
+              <a
+                href="https://www.facebook.com/al7omoddi"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-facebook social__icon"></i> @al7omoddi
+              </a>
+              <a
+                href="https://www.instagram.com/al7omoddi/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i> @Bahomoddah
+              </a>
+              <a
+                href="https://github.com/bahomoddah"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> @Bahomoddah
+              </a>
+            </div>
+          </section>
+
+          <!--############ The EDUCATION ############-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="bx bx-grid-alt"></i>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Computer Engineering</h3>
+                  <span class="education__studies">Hadramout University</span>
+                  <span class="education__year">2015-2020</span>
                 </div>
-            </nav>
-            
-        </header>
+              </div>
 
-        <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
-                <div class="resume__left">
-                    <!--############ The HOME ############-->
-                    <section class="home" id="home">
-                        <div class="home__container section bd-grid">
-                            <div class="home__data bd-grid">
-                                <img src="assets/images/bahomoddah-black.jpg" alt="" class="home__img">
-
-                                <h1 class="home__title">Mohammed <b>Bahomoddah</b></h1>
-                                <h3 class="home__profession">Software Engineer</h3>
-
-                                <!-- Here The Button to download the pdf. Available for mobile. -->
-                                <div>
-                                    <a download="" href="assets/images/Bahomoddah-cv.pdf" class="home__button-movil">download</a>
-                                </div>
-                            </div>
-
-                            <div class="home__address bd-grid">
-                                <span class="home__information">
-                                    <i class="bx bx-map home__icon"></i>Hadramout
-                                </span>
-                                <span class="home__information">
-                                    <i class="bx bx-envelope home__icon"></i>bahomoddah@gmail.com
-                                </span>
-                                <span class="home__information">
-                                    <i class="bx bx-phone home__icon"></i>770751034
-                                </span>
-                                <span class="home__information">
-                                    <i class="bx bxl-whatsapp home__icon"></i>+967 770751034
-                                </span>
-                            </div>
-                        </div>
-                        
-                        <!-- Change-theme btn -->
-                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
-
-                        <!-- Generate & download the pdf (desktop) -->
-                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
-
-                    </section>          
-                     
-                    <!--############ The SOCIAL ############-->
-                    <section class="social section">
-                        <h2 class="section-title">SOCIAL</h2>
-
-                        <div class="social__container bd-grid">
-                            <a href="https://www.linkedin.com/in/mohammed-bahomoddah/" target="_blank" class="social__link">
-                                <i class="bx bxl-linkedin-square social__icon"></i> @mohammed-Bahomoddah
-                            </a>
-                            <a href="https://www.facebook.com/al7omoddi" target="_blank" class="social__link">
-                                <i class="bx bxl-facebook social__icon"></i> @al7omoddi
-                            </a>
-                            <a href="https://www.instagram.com/al7omoddi/" target="_blank" class="social__link">
-                                <i class="bx bxl-instagram social__icon"></i> @Bahomoddah
-                            </a>
-                            <a href="https://github.com/bahomoddah" target="_blank" class="social__link">
-                                <i class="bx bxl-github social__icon"></i> @Bahomoddah
-                            </a>
-                        </div>
-                    </section>
-                    
-                    <!--############ The EDUCATION ############-->
-                    <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
-
-                        <div class="education__container bd-grid">
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Computer Engineering</h3>
-                                    <span class="education__studies">Hadramout University</span>
-                                    <span class="education__year">2015-2020</span>
-                                </div>
-                            </div>
-
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Secandery School</h3>
-                                    <span class="education__studies">Alebda'a Schools</span>
-                                    <span class="education__year">2011-2014</span>
-                                </div>
-                            </div>
-
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <!-- <span class="education__line"></span> -->
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">English Diploma</h3>
-                                    <span class="education__studies">MII Institute</span>
-                                    <span class="education__year">2015</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <!--############ The Programming TOOLS  ############-->
-                    <section class="tools section" id="tools">
-                        <h2 class="section-title">Tools</h2>
-
-                        <div class="tools__content bd-grid">
-                            <ul class="tools__data">
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Html / Css
-                                </li>
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Javascript
-                                </li>
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Sass
-                                </li>
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Tailwide
-                                </li>
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Photoshop
-                                </li>
-                            </ul>
-
-                            <ul class="tools__data">
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Vue / Nuxt.js
-                                </li>
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Node.js
-                                </li>
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Firebase
-                                </li>
-                                <li class="tools__name">
-                                    <span class="tools__circle"></span> Git / Github
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
                 </div>
 
-                <div class="resume__right">
-                    <!--############ The EXPERIENCE ############-->
-                    <section class="experience section" id="experience">
-                        <h2 class="section-title">Experience</h2>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Secandery School</h3>
+                  <span class="education__studies">Alebda'a Schools</span>
+                  <span class="education__year">2011-2014</span>
+                </div>
+              </div>
 
-                        <div class="experience__container bd-grid">
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
 
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">FrontEnd Developer</h3>
-                                    <span class="experience__company">from 4-2020 to Now | Bootfi Company</span>
-                                    <p class="experience__description">
-                                        Work in this company dedicating the best responsibility in the area that corresponds.
-                                    </p>
-                                </div>
-                            </div>
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">English Diploma</h3>
+                  <span class="education__studies">MII Institute</span>
+                  <span class="education__year">2015</span>
+                </div>
+              </div>
+            </div>
+          </section>
 
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
+          <!--############ The Programming TOOLS  ############-->
+          <section class="tools section" id="tools">
+            <h2 class="section-title">Tools</h2>
 
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">FrontEnd Developer</h3>
-                                    <span class="experience__company">from 7-2020 to 6-2022 | Speero Company</span>
-                                    <p class="experience__description">
-                                        Work in this company dedicating the best responsibility in the area that corresponds.
-                                    </p>
-                                </div>
-                            </div>
+            <div class="tools__content bd-grid">
+              <ul class="tools__data">
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Html / Css
+                </li>
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Javascript
+                </li>
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Sass
+                </li>
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Tailwide
+                </li>
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Photoshop
+                </li>
+              </ul>
 
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
+              <ul class="tools__data">
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Vue / Nuxt.js
+                </li>
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Node.js
+                </li>
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Firebase
+                </li>
+                <li class="tools__name">
+                  <span class="tools__circle"></span> Git / Github
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
 
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">FrontEnd Design</h3>
-                                    <span class="experience__company">from 9-2021 to Now | Koon Agency</span>
-                                    <p class="experience__description">
-                                        Work in this company dedicating the best responsibility in the area that corresponds.
-                                    </p>
-                                </div>
-                            </div>
+        <div class="resume__right">
+          <!--############ The EXPERIENCE ############-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
 
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <!-- <span class="experience__line"></span> -->
-                                </div>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
 
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Administrative Supervisor</h3>
-                                    <span class="experience__company">from 2016 to 2020 | Mluti Places</span>
-                                    <p class="experience__description">
-                                        Undertaking general administrative tasks in ( Hadramout University Students' Union - Al-Rwad University Center - Volunteers Foundation )
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">FrontEnd Developer</h3>
+                  <span class="experience__company"
+                    >from 4-2020 to Now | Bootfi Company</span
+                  >
+                  <p class="experience__description">
+                    Work in this company dedicating the best responsibility in
+                    the area that corresponds.
+                  </p>
+                </div>
+              </div>
 
-                    <!--############ The Personal Skills ############-->
-                    <section class="skills section" id="skills">
-                        <h2 class="section-title">Skills</h2>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
 
-                        <div class="skills__container">
-                            <ul class="skills__content bd-grid">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Leadership & Public Speaking
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Problem Solving
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Communication Skills
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Teamwork 
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">FrontEnd Developer</h3>
+                  <span class="experience__company"
+                    >from 7-2020 to 6-2022 | Speero Company</span
+                  >
+                  <p class="experience__description">
+                    Work in this company dedicating the best responsibility in
+                    the area that corresponds.
+                  </p>
+                </div>
+              </div>
 
-                    <!--############ The CERTIFICATES ############-->
-                    <!-- <section class="certificate section" id="certificate">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">FrontEnd Design</h3>
+                  <span class="experience__company"
+                    >from 9-2021 to Now | Koon Agency</span
+                  >
+                  <p class="experience__description">
+                    Work in this company dedicating the best responsibility in
+                    the area that corresponds.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Administrative Supervisor</h3>
+                  <span class="experience__company"
+                    >from 2016 to 2020 | Mluti Places</span
+                  >
+                  <p class="experience__description">
+                    Undertaking general administrative tasks in ( Hadramout
+                    University Students' Union - Al-Rwad University Center -
+                    Volunteers Foundation )
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--############ The Personal Skills ############-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container">
+              <ul class="skills__content bd-grid">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Leadership & Public
+                  Speaking
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Problem Solving
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Communication Skills
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Teamwork
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--############ The CERTIFICATES ############-->
+          <!-- <section class="certificate section" id="certificate">
                         <h2 class="section-title">Certificate</h2>
 
                         <div class="certificate__container bd-grid">
@@ -340,70 +396,69 @@
                             </div>
                     </section> -->
 
-                    <!--############ The LANGUAGES ############-->
-                    <section class="languages section">
-                        <h2 class="section-title">Languages</h2>
+          <!--############ The LANGUAGES ############-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
 
-                        <div class="languages__container">
-                            <ul class="languages__content bd-grid">
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span>Arabic (Excellent)
-                                </li>
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span>English (V. Good)
-                                </li>
-                                <!-- <li class="languages__name">
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span>Arabic (Excellent)
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>English (V. Good)
+                </li>
+                <!-- <li class="languages__name">
                                     <span class="languages__circle"></span>French (Basic)
                                 </li> -->
-                            </ul>
-                        </div>
-                    </section>
-                    
-                    <!--############ The INTERESTS ############-->
-                    <section class="interests section" id="interests">
-                        <h2 class="section-title">Interests</h2>
+              </ul>
+            </div>
+          </section>
 
-                        <div class="interests__container bd-grid">
+          <!--############ The INTERESTS ############-->
+          <section class="interests section" id="interests">
+            <h2 class="section-title">Interests</h2>
 
-                            <div class="interests__content">
-                                <i class="bx bxs-plane-alt"></i>
-                                <span class="interests__name">Traveling</span>
-                            </div>
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt"></i>
+                <span class="interests__name">Traveling</span>
+              </div>
 
-                            <div class="interests__content">
-                                <i class='bx bx-wrench'></i>
-                                <span class="interests__name">Fix Things</span>
-                            </div>
+              <div class="interests__content">
+                <i class="bx bx-wrench"></i>
+                <span class="interests__name">Fix Things</span>
+              </div>
 
-                            <!-- <div class="interests__content">
+              <!-- <div class="interests__content">
                                 <i class="bx bx-headphone"></i>
                                 <span class="interests__name">Music</span>
                             </div> -->
 
-                            <div class="interests__content">
-                                <i class="bx bx-book"></i>
-                                <span class="interests__name">Reading</span>
-                            </div>
+              <div class="interests__content">
+                <i class="bx bx-book"></i>
+                <span class="interests__name">Reading</span>
+              </div>
 
-                            <div class="interests__content">
-                                <i class="bx bx-dumbbell"></i>
-                                <span class="interests__name">Fitenss</span>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>        
-        </main>
+              <div class="interests__content">
+                <i class="bx bx-dumbbell"></i>
+                <span class="interests__name">Fitenss</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
 
-        <!-- ##### TOP SCROLL  #### -->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class="bx bx-up-arrow-alt scrolltop-icon"></i>
-        </a>
+    <!-- ##### TOP SCROLL  #### -->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop-icon"></i>
+    </a>
 
-                <!--===== SCROLL REVEAL =====-->
-                <script src="https://unpkg.com/scrollreveal"></script>
-        
-        <script src="assets/js/html2pdf.bundle.min.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -45,6 +45,9 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /*############ The Variables in Dark theme ############*/
 body.dark-theme {
@@ -148,7 +151,7 @@ body.dark-theme {
     gap: .25rem;
 }
 
-.scale-cv .skills__name {
+.scale-cv .tools__name {
     margin-bottom: var(--mb-1);
 }
 
@@ -278,6 +281,14 @@ img {
     }
     
 }
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo img {
+    margin-right: 4px;
+}
 
 .nav__logo,
 .nav__toggle {
@@ -325,7 +336,7 @@ img {
 /* to Active menu link */
 
 .active-link {
-    color: var(--img-color);
+    color: var(--text-color);
 }
 
 /*############ The HOME ############*/
@@ -379,7 +390,7 @@ img {
     display: inline-block;
     border: 2px solid var(--text-color);
     color: var(--title-color);
-    padding: 1rem 2rem;
+    padding: 0.6rem 1.5rem;
     border-radius: .25rem;
     transition: .3s;
     font-weight: var(--font-medium);
@@ -467,9 +478,9 @@ img {
     font-size: var(--smaller-font-size);
 }
 
-/*############ The SKILLS AND The LANGUAGES ############*/
+/*############ The TOOLS AND The LANGUAGES ############*/
 
-.skills__content,
+.tools__content,
 .languages__content {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -478,15 +489,39 @@ img {
     gap: 0;
 }
 
-.skills__name,
+.tools__name,
 .languages__name {
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-3);
 }
 
-.skills__circle,
+.tools__circle,
 .languages__circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    margin-right: .75rem;
+}
+/*############ The SKILLS ############*/
+
+.skills__content {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.skills__content {
+    gap: 0;
+}
+
+.skills__name {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2);
+}
+
+.skills__circle {
     display: inline-block;
     width: 5px;
     height: 5px;
@@ -537,6 +572,7 @@ img {
     z-index: var(--z-tooltip);
     transition: .4s;
     visibility: hidden;
+    color: var(--text-color);
 }
 
 .scrolltop__icon {
@@ -620,6 +656,11 @@ img {
 
     .interests__container {
         grid-template-columns: repeat(4, max-content );
+        column-gap: 3.5rem;
+    }
+
+    .skills__content {
+        grid-template-columns: repeat(2, max-content);
         column-gap: 3.5rem;
     }
 }

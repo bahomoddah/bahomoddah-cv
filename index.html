@@ -8,6 +8,7 @@
         <meta name="keywords" content="bahomoddah,CV,Programmer,باحمده,website">
         <meta name="author" content="Bahomoddah">
         <meta name="robots" content="index, follow">
+        <link rel="icon" href="assets/images/logo-b.png" type="image/x-icon">
 
         <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> -->
         <link rel="stylesheet" href="assets/css/boxicons.min.css.css">
@@ -19,7 +20,9 @@
         <!--############ The HEADER ############-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Bahomoddah</a>
+                <a href="#" class="nav__logo">
+                    <img width="20" src="assets/images/logo-b.png" alt="">
+                    Bahomoddah</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -28,24 +31,29 @@
                                 <i class="bx bx-home nav__icon"></i>Home
                             </a>
                         </li>
-                        <li class="nav__item">
+                        <!-- <li class="nav__item">
                             <a href="#social" class="nav__link">
                                 <i class="bx b bx-user nav__icon"></i>Social
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav__item">
                             <a href="#education" class="nav__link">
                                 <i class="bx bx-book nav__icon"></i>Education
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="bx bx-receipt nav__icon"></i>Skills
+                            <a href="#tools" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Tools
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#experience" class="nav__link">
                                 <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Skills
                             </a>
                         </li>
                         <li class="nav__item">
@@ -71,7 +79,7 @@
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
-                                <img src="assets/images/bahomoddah-profile.jpg" alt="" class="home__img">
+                                <img src="assets/images/bahomoddah-black.jpg" alt="" class="home__img">
 
                                 <h1 class="home__title">Mohammed <b>Bahomoddah</b></h1>
                                 <h3 class="home__profession">Software Engineer</h3>
@@ -92,6 +100,9 @@
                                 <span class="home__information">
                                     <i class="bx bx-phone home__icon"></i>770751034
                                 </span>
+                                <span class="home__information">
+                                    <i class="bx bxl-whatsapp home__icon"></i>+967 770751034
+                                </span>
                             </div>
                         </div>
                         
@@ -104,7 +115,7 @@
                     </section>          
                      
                     <!--############ The SOCIAL ############-->
-                    <section class="social section" id="social">
+                    <section class="social section">
                         <h2 class="section-title">SOCIAL</h2>
 
                         <div class="social__container bd-grid">
@@ -170,35 +181,38 @@
                     </section>
 
 
-                    <!--############ The SKILLS  ############-->
-                    <section class="skills section" id="skills">
-                        <h2 class="section-title">Skills</h2>
+                    <!--############ The Programming TOOLS  ############-->
+                    <section class="tools section" id="tools">
+                        <h2 class="section-title">Tools</h2>
 
-                        <div class="skills__content bd-grid">
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Html
+                        <div class="tools__content bd-grid">
+                            <ul class="tools__data">
+                                <li class="tools__name">
+                                    <span class="tools__circle"></span> Html / Css
                                 </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Css
+                                <li class="tools__name">
+                                    <span class="tools__circle"></span> Javascript
                                 </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Sass
+                                <li class="tools__name">
+                                    <span class="tools__circle"></span> Sass
                                 </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> JavaScript
+                                <li class="tools__name">
+                                    <span class="tools__circle"></span> Tailwide
                                 </li>
                             </ul>
 
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Vue
+                            <ul class="tools__data">
+                                <li class="tools__name">
+                                    <span class="tools__circle"></span> Vue / Nuxt.js
                                 </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Nuxt
+                                <li class="tools__name">
+                                    <span class="tools__circle"></span> Node.js
                                 </li>
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Firebase
+                                <li class="tools__name">
+                                    <span class="tools__circle"></span> Firebase
+                                </li>
+                                <li class="tools__name">
+                                    <span class="tools__circle"></span> Git / Github
                                 </li>
                             </ul>
                         </div>
@@ -259,29 +273,51 @@
                         </div>
                     </section>
 
+                    <!--############ The Personal Skills ############-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__container">
+                            <ul class="skills__content bd-grid">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Leadership & Public Speaking
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Problem Solving
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Communication Skills
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Teamwork 
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
                     <!--############ The CERTIFICATES ############-->
                     <section class="certificate section" id="certificate">
                         <h2 class="section-title">Certificate</h2>
 
                         <div class="certificate__container bd-grid">
                             <div class="certificate__content">
-                                <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
+                                <h3 class="certificate__title">Certified for compliance (2012)</h3>
                                 <p class="certificate__description">
-                                    For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                                    For meeting the expectations of leading 
                                 </p>
                             </div>
 
                             <div class="certificate__content">
-                                <h3 class="certificate__title">Certificate of attendance on computer technology</h3>
+                                <h3 class="certificate__title">Certificate of attendance</h3>
                                 <p class="certificate__description">
-                                    For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                                    For meeting the expectations of leading
                                 </p>
                             </div>
 
                             <div class="certificate__content">
-                                <h3 class="certificate__title">Achievement medal for productivity excellence during the year (2019)</h3>
+                                <h3 class="certificate__title">Achievement medal (2019)</h3>
                                 <p class="certificate__description">
-                                    For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                                    For meeting the expectations of leading
                                 </p>
                             </div>
                     </section>
@@ -293,14 +329,14 @@
                         <div class="languages__container">
                             <ul class="languages__content bd-grid">
                                 <li class="languages__name">
-                                    <span class="languages__circle"></span>Arabic
+                                    <span class="languages__circle"></span>Arabic (Excellent)
                                 </li>
                                 <li class="languages__name">
-                                    <span class="languages__circle"></span>English
+                                    <span class="languages__circle"></span>English (V. Good)
                                 </li>
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span>French
-                                </li>
+                                <!-- <li class="languages__name">
+                                    <span class="languages__circle"></span>French (Basic)
+                                </li> -->
                             </ul>
                         </div>
                     </section>
@@ -313,7 +349,7 @@
 
                             <div class="interests__content">
                                 <i class="bx bxs-plane-alt"></i>
-                                <span class="interests__name">Travel</span>
+                                <span class="interests__name">Traveling</span>
                             </div>
 
                             <div class="interests__content">
@@ -321,14 +357,14 @@
                                 <span class="interests__name">Fix Things</span>
                             </div>
 
-                            <div class="interests__content">
+                            <!-- <div class="interests__content">
                                 <i class="bx bx-headphone"></i>
                                 <span class="interests__name">Music</span>
-                            </div>
+                            </div> -->
 
                             <div class="interests__content">
                                 <i class="bx bx-book"></i>
-                                <span class="interests__name">Read</span>
+                                <span class="interests__name">Reading</span>
                             </div>
 
                             <div class="interests__content">
@@ -345,6 +381,9 @@
         <a href="#" class="scrolltop" id="scroll-top">
             <i class="bx bx-up-arrow-alt scrolltop-icon"></i>
         </a>
+
+                <!--===== SCROLL REVEAL =====-->
+                <script src="https://unpkg.com/scrollreveal"></script>
         
         <script src="assets/js/html2pdf.bundle.min.js"></script>
         <script src="assets/js/main.js"></script>

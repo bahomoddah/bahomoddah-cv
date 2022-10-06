@@ -544,7 +544,7 @@ img {
 /*############ The INTERESTS ############*/
 
 .interests__container {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-top: var(--mb-2);
 }
 
@@ -661,7 +661,7 @@ img {
   }
 
   .interests__container {
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(3, max-content);
     column-gap: 3.5rem;
   }
 
